@@ -1,4 +1,4 @@
-const socket = io("http://183.102.182.111:3000/");
+const socket = io("https://minjun-cursor.loca.lt");
 
 let nickname = prompt("닉네임을 입력하세요") || "익명";
 socket.emit("set-nickname", nickname);
